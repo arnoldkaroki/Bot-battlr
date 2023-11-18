@@ -5,7 +5,13 @@
     grid-row-gap: 0px;
         
 }
+#botCollection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 6px; 
+    grid-row-gap: 10px;
 
+}
 .bot-card {
     max-width: 280px;
     border: 1px solid #ccc;

@@ -1,7 +1,7 @@
 
 import React from "react";
 
-function BotCollection({bots,onBotClick}){
+function Botcollection({bots,onBotClick}){
 
     return(
         <>
@@ -21,5 +21,5 @@ function BotCollection({bots,onBotClick}){
     )
 }
 
-export default BotCollection
+export default Botcollection
 
