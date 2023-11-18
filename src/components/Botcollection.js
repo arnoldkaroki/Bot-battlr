@@ -5,6 +5,7 @@ function Botcollection({bots,onBotClick}){
 
     return(
         <>
+            <h1>Bot collection</h1>
            <div id="botCollection">
            {bots.map((bot) => (
                     <div key={bot.id} className="bot-card" onClick={() => onBotClick(bot)}>

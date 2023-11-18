@@ -24,6 +24,9 @@
   }
   .release{
     color: white;
+    width: 70px;
+    background-color: red;
+    border-radius: 5px;
   }
   
   .bot-card img {
