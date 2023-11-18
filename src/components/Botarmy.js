@@ -15,16 +15,19 @@ function Botarmy({ onBotClick, onRelease, onDischarge, army }) {
       <h2>Your Bot Army</h2>
       <div id="botArmy">
       {army.map((bot) => (
-        <div key={bot.id} className="bot-card" onClick={() => onBotClick(bot)}>
+        <div className="card">
+          <div key={bot.id} className="bot-card1" onClick={() => onBotClick(bot)}>
           <img src={bot.avatar_url} alt={bot.name} />
           <p>{bot.name}</p>
           <p>Class: {bot.bot_class}</p>
           <p>Health: {bot.health}</p>
           <p>Damage: {bot.damage}</p>
           <p className="catchphrase">{bot.catchphrase}</p>
-          <button onClick={() => handleReleaseClick(bot.id)}>Release</button>
-          <button className="discharge-button" onClick={() => handleDischargeClick(bot.id)}>X</button>
+          <button className="release" onClick={() => handleReleaseClick(bot.id)}>X</button>
+          <button className="discharge-button" onClick={() => handleDischargeClick(bot.id)}>Release</button>
         </div>
+        </div>
+
       ))}
     </div>
     </>
