@@ -28,10 +28,12 @@ function App() {
   
 
   function handleBotRelease(botId) {
+    console.log("Releasing Bot ID:", botId);
     setSelectedBots((prevSelectedBots) => prevSelectedBots.filter((bot) => bot.id !== botId));
   }
 
   function handleBotDischarge(botId) {
+    console.log("Discharging Bot ID:", botId);
     fetch(`http://localhost:3000/bots/${botId}`, {
       method: 'DELETE',
     }).then(() => {
