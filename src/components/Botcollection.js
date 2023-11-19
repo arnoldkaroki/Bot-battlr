@@ -1,4 +1,3 @@
-
 import React from "react";
 
 function Botcollection({bots,onBotClick}){
@@ -23,4 +22,3 @@ function Botcollection({bots,onBotClick}){
 }
 
 export default Botcollection
-

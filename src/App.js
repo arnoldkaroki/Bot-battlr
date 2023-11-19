@@ -29,7 +29,11 @@ function App() {
 
   function handleBotRelease(botId) {
     console.log("Releasing Bot ID:", botId);
-    setSelectedBots((prevSelectedBots) => prevSelectedBots.filter((bot) => bot.id !== botId));
+    setSelectedBots((prevSelectedBots) => {
+      const newSelectedBots = prevSelectedBots.filter((bot) => bot.id !== botId);
+      console.log("New Selected Bots:", newSelectedBots);
+      return newSelectedBots;
+    });
   }
 
   function handleBotDischarge(botId) {

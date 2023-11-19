@@ -1,6 +1,8 @@
+// Botarmy.js
 import React from 'react';
 
 function Botarmy({ onBotClick, onRelease, onDischarge, army }) {
+  console.log("Botarmy is rendering");
   const handleReleaseClick = (botId) => {
     console.log("Release Clicked for Bot ID:", botId);
     onRelease(botId);
