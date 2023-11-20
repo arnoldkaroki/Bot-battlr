@@ -17,7 +17,7 @@ function App() {
 
   // Function to fetch bots from the server
   function fetchBots() {
-    fetch('http://localhost:3000/bots')
+    fetch('https://mock-4oke.onrender.com/bots')
       .then((r) => r.json())
       .then((bots) => setBots(bots));
   }
