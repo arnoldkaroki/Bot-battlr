@@ -31,3 +31,4 @@ The app uses CSS for styling. The bot-card class defines the styling for individ
 ## License
 Arnold Karoki.
 # Bot-battlr
+# Bot-battlr
