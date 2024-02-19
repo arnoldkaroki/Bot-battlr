@@ -1,5 +1,5 @@
 # BOT-BATTLR
-This sis a proram that allows a userr to pick ,release and discharge a bot from a collection of bots
+This is a proram that allows a userr to pick ,release and discharge a bot from a collection of bots
 ## Features
 
 - **Bot Collection:** View a collection of available bots with details such as name, class, health, damage, and catchphrase.
@@ -29,4 +29,5 @@ Renders the collection of available bots with details. Provides a click event ha
 The app uses CSS for styling. The bot-card class defines the styling for individual bot cards, and the active class changes the background color for selected bots in the army.
 
 ## License
- Terence
+Arnold Karoki.
+# Bot-battlr
